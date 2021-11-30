@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="team_eight.am_player.controller.LauncherActivity">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@mipmap/search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search"/>
+    <item android:id="@+id/menu_setting"
+        android:icon="@mipmap/settings_white_24dp"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_about"
+        android:icon="@mipmap/info_white_24dp"
+        android:title="About"
+        app:showAsAction="ifRoom" />
+</menu>

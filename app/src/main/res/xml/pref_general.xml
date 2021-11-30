@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        app:useSimpleSummaryProvider="true"
+        app:key="ipServer"
+        app:title="Server IP"
+        app:defaultValue="192.168.56.1"
+        app:iconSpaceReserved="false"/>
+    <EditTextPreference
+        app:iconSpaceReserved="false"
+        app:useSimpleSummaryProvider="true"
+        app:defaultValue="9999"
+        app:key="port"
+        app:title="Port (>1024)" />
+
+</PreferenceScreen>

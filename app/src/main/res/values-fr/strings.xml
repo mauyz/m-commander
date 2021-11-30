@@ -1,0 +1,7 @@
+<resources>
+    <integer name="version">2</integer>
+    <string name="app_name">M-Player</string>
+    <string name="about_title">A propos</string>
+    <string name="setting_title">Paramètres</string>
+    <string name="version_name">2.0</string>
+</resources>

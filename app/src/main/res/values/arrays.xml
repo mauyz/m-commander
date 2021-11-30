@@ -1,0 +1,7 @@
+<resources>
+    <array name="repeat">
+        <item>No repeat</item>
+        <item>Repeat one</item>
+        <item>Repeat all</item>
+    </array>
+</resources>
